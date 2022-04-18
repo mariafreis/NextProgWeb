@@ -20,6 +20,12 @@ export function Header() {
           <Link href="/times">
             <a className={asPath == "/times" ? style.active : ""}> Times </a>
           </Link>
+          <Link href="/carrinhos">
+            <a className={asPath == "/carrinhos" ? style.active : ""}>
+              {" "}
+              Carrinhos{" "}
+            </a>
+          </Link>
         </nav>
       </div>
     </header>
